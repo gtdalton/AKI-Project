@@ -7,19 +7,18 @@ There is no patient data of any kind in this repository.
 The following data files are required in the following format and stored in  directory in <dataset_name>/raw_data/
 (where <dataset_name> is replaced with a name for the dataset being used e.g. 'uclh')
 
-A demographics file (one line per ITU admission) with columns:
-|Column|Description
----
-'episode'| unique ITU admission identifier
----
-'hospital_id': unique patient identifier
-'admission_date': timestamp ('YYYY-MM-DD HH:MM:SS')
-'discharge_date': timestamp
-'admission_age': years (float)
-'ethnic_group': string
-'gender': string
-'chronic_renal_replacement_therapy': binary marker of recieving RRT for CKD during ITU stay
-* episodes.csv
+* 'episodes.csv': demographics file (one line per ITU admission) with columns:
+|Column   |Description|
+|---------|-----------|
+|'episode'| unique ITU admission identifier|
+|'hospital_id'|unique patient identifier|
+|'admission_date'|timestamp ('YYYY-MM-DD HH:MM:SS')|
+|'discharge_date'|timestamp|
+|'admission_age'|years (float)|
+|'ethnic_group'|string|
+|'gender'|string|
+|'chronic_renal_replacement_therapy'|binary marker of recieving RRT for CKD during ITU stay|
+
 
 "Structured Data" CSV files with the following columns:
 'episode'
