@@ -8,7 +8,10 @@ The following data files are required in the following format and stored in  dir
 (where <dataset_name> is replaced with a name for the dataset being used e.g. 'uclh')
 
 A demographics file (one line per ITU admission) with columns:
-'episode': unique ITU admission identifier
+|Column|Description
+---
+'episode'| unique ITU admission identifier
+---
 'hospital_id': unique patient identifier
 'admission_date': timestamp ('YYYY-MM-DD HH:MM:SS')
 'discharge_date': timestamp
