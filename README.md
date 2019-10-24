@@ -12,8 +12,8 @@ The following data files are required in the following format and stored in  dir
 
 |Column   |Description|
 |---------|-----------|
-|'episode'| unique ITU admission identifier|
-|'hospital_id'|unique patient identifier|
+|'episode'| unique ICU admission ID|
+|'hospital_id'|unique patient ID|
 |'admission_date'|timestamp ('YYYY-MM-DD HH:MM:SS')|
 |'discharge_date'|timestamp|
 |'admission_age'|years (float)|
@@ -23,10 +23,13 @@ The following data files are required in the following format and stored in  dir
 
 
 "Structured Data" CSV files with the following columns:
-'episode'
-'hospital_id'
-'value': value for data
-'chartDate' timestamp for value
+
+|column|Description|
+---    |---
+|'episode'|unique ICU admission ID
+|'hospital_id'|unique patient ID|
+|'value'|value for data|
+|'chartDate'|timestamp for value|
 * heart_rate.csv
 * temperature.csv
 * gcs.csv
