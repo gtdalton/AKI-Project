@@ -120,7 +120,7 @@ def main():
     output_folder = data_set + "cleaned_data/"
     if not (os.path.isdir("./"+output_folder)):
         od.mkdir("./"+output_folder)
-    
+
     clean_episodes(input_folder,output_folder)
     clean_hr(input_folder,output_folder)
     clean_urine_output(input_folder,output_folder)
