@@ -60,6 +60,7 @@ Output: included_episodes.csv
 Input: included_episodes.csv and cleaned_data/creatinine.csv
 Output: aki_episodes.csv
 Processes creatinine measurements according to NHS algorithm for defining AKI
+https://www.england.nhs.uk/wp-content/uploads/2014/06/psa-aki-alg.pdf
 
 ### methods_4_build_ml_input.py
 Input aki_episodes, cleaned_data/*
